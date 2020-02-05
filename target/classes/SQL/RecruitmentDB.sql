@@ -1,6 +1,14 @@
 drop database recruitmentDB;
 create database recruitmentDB;
 use recruitmentDB;
+commit;
+create table employee_role_master
+(
+	role_id int primary key auto_increment,
+    designation varchar(30) check (length(designation) > 0)
+);
+commit;
+
 create table project_master
 (
 	project_id int,
@@ -27,14 +35,7 @@ create table address_master
     check (length(country) > 0)
 );
 commit;
-create table employee_role_master
-(
-	role_id int,
-    designation varchar(30),
-    primary key auto_increment(role_id),
-	check (length(designation) > 0)
-);
-commit;
+
 create table employee_master
 (
 	employee_id int,
@@ -109,3 +110,7 @@ create table assessment_master
     check ((overall_score) >= 0)
 );
 
+commit;
+insert into employee_role_master values(0,'Developer');
+
+select * from employee_role_master;
