@@ -1,0 +1,53 @@
+package com.borntocode.controller;
+
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.borntocode.pojo.EmployeeRole;
+import com.borntocode.service.EmployeeRoleService;
+
+@CrossOrigin(origins = "*")
+@RestController
+@RequestMapping("/roles")
+public class EmployeeRoleController {
+
+	@Autowired
+	private EmployeeRoleService employeeRoleService;
+	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
+
+	@RequestMapping(value = "/role", method = RequestMethod.POST)
+	public int addNewEmployeeRole(@RequestBody EmployeeRole employeeRole) {
+		LOGGER.info("addNewEmployeeRole");
+		LOGGER.info(employeeRole.toString());
+		return employeeRoleService.insertEmployeeRole(employeeRole);
+	}
+
+	@RequestMapping(value = "/{roleId}", method = RequestMethod.PUT)
+	public EmployeeRole updateEmployeeRole(@Param("roleId") int roleId, @RequestBody EmployeeRole employeeRole) {
+		LOGGER.info("updateEmployeeRole");
+		LOGGER.info("RoleId :: " + roleId);
+		LOGGER.info(employeeRole.toString());
+		return employeeRoleService.updateEmployeeRole(roleId, employeeRole);
+	}
+
+	public boolean deleteEmployeeRole(@Param("roleId") int roleId) {
+		LOGGER.info("deleteEmployeeRole");
+		LOGGER.info("RoleId :: " + roleId);
+		return employeeRoleService.deleteEmployeeRole(roleId);
+	}
+
+	@RequestMapping(value = "/getAllRoles", method = RequestMethod.GET)
+	public List<EmployeeRole> getAllEmployeeRoles() {
+		LOGGER.info("getAllEmployeeRoles");
+		return employeeRoleService.getAllEmployeeRoles();
+	}
+}
