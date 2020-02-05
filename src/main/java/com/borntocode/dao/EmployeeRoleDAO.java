@@ -30,8 +30,9 @@ public class EmployeeRoleDAO implements EmployeeRoleDAOInterface {
 	private final Logger LOGGER = LoggerFactory.getLogger(EmployeeRoleDAOInterface.class);
 	private static String INSERT_EMPLOYEE_ROLE_SQL = "insert into employee_role_master (designation) values(?)";
 	private static String SELECT_ALL_EMPLOYEE_ROLES_SQL = "select * from employee_role_master";
-	private static String UPDATE_EMPLOYEE_ROLE_SQL = "update employee_role set designation=? where role_id=?";
-	private static String DELETE_EMPLOYEE_ROLE_SQL = "delete from employee_role where role_id=?";
+	private static String UPDATE_EMPLOYEE_ROLE_SQL = "update employee_role_master set designation=? where role_id=?";
+	private static String DELETE_EMPLOYEE_ROLE_SQL = "delete from employee_role_master where role_id=?";
+	private static String SELECT_EMPLOYEE = "select * from employee_role_master where role_id=?";
 
 	private int count;
 
@@ -64,8 +65,9 @@ public class EmployeeRoleDAO implements EmployeeRoleDAOInterface {
 		LOGGER.info("roleId :: " + roleId);
 		LOGGER.info(employeeRole.toString());
 
-		Object[] args = { employeeRole.getDesignation() };
+		Object[] args = { employeeRole.getDesignation(), employeeRole.getRoleId() };
 		jdbcTemplate.update(UPDATE_EMPLOYEE_ROLE_SQL, args);
+		
 		return getEmployeeRoleByRoleId(roleId);
 	}
 
@@ -85,7 +87,7 @@ public class EmployeeRoleDAO implements EmployeeRoleDAOInterface {
 	public EmployeeRole getEmployeeRoleByRoleId(int roleId) {
 		LOGGER.info("DAO :: getEmployeeRoleByRoleId");
 		try {
-			EmployeeRole employeeRole = jdbcTemplate.queryForObject(UPDATE_EMPLOYEE_ROLE_SQL, new Object[] { roleId },
+			EmployeeRole employeeRole = jdbcTemplate.queryForObject(SELECT_EMPLOYEE, new Object[] { roleId },
 					new EmployeeRoleRowMapper());
 			if (employeeRole != null) {
 				LOGGER.info("Values From DB");

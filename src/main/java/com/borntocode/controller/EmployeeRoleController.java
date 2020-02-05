@@ -5,8 +5,8 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -32,14 +32,15 @@ public class EmployeeRoleController {
 	}
 
 	@RequestMapping(value = "/{roleId}", method = RequestMethod.PUT)
-	public EmployeeRole updateEmployeeRole(@Param("roleId") int roleId, @RequestBody EmployeeRole employeeRole) {
+	public EmployeeRole updateEmployeeRole(@PathVariable("roleId") int roleId, @RequestBody EmployeeRole employeeRole) {
 		LOGGER.info("updateEmployeeRole");
 		LOGGER.info("RoleId :: " + roleId);
 		LOGGER.info(employeeRole.toString());
 		return employeeRoleService.updateEmployeeRole(roleId, employeeRole);
 	}
 
-	public boolean deleteEmployeeRole(@Param("roleId") int roleId) {
+	@RequestMapping(value = "/{roleId}", method = RequestMethod.DELETE)
+	public boolean deleteEmployeeRole(@PathVariable("roleId") int roleId) {
 		LOGGER.info("deleteEmployeeRole");
 		LOGGER.info("RoleId :: " + roleId);
 		return employeeRoleService.deleteEmployeeRole(roleId);
