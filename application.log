@@ -188,3 +188,23 @@ java.lang.NullPointerException: null
 2020-02-05 17:11:56,112 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
 2020-02-05 17:11:56,506 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
 2020-02-05 17:11:56,595 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] Inserted EmployeeRole :: RoleId :: 3
+2020-02-05 18:10:36,361 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 4436 (C:\Users\BornToCode\git\RecruitmentApplication\target\classes started by BornToCode in C:\Users\BornToCode\git\RecruitmentApplication)
+2020-02-05 18:10:36,365 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-05 18:10:38,175 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 18:10:38,175 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-05 18:10:38,318 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 18:10:38,429 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-05 18:10:38,430 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-05 18:10:38,543 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-05 18:10:39,579 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 3.906 seconds (JVM running for 4.536)
+2020-02-05 18:11:13,183 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 18:11:13,254 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getAllEmployeeRoles
+2020-02-05 18:11:13,279 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getAllEmployeeRoles
+2020-02-05 18:11:13,301 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2020-02-05 18:11:13,832 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2020-02-05 18:11:13,924 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-05 18:11:13,925 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=1, designation=Tester]
+2020-02-05 18:11:13,926 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-05 18:11:13,926 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=2, designation=Developer]
+2020-02-05 18:11:13,926 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-05 18:11:13,926 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=3, designation=HR]
