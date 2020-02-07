@@ -1,1 +1,694 @@
-2020-02-06 00:06:31,043 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m57s344ms906µs400ns).
+2020-02-07 00:31:11,431 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 8176 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\RecruitmentApplication)
+2020-02-07 00:31:11,450 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-07 00:31:14,847 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-07 00:31:14,848 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 00:31:15,102 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-07 00:31:15,211 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-07 00:31:15,213 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-07 00:31:15,360 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-07 00:31:16,649 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 6.177 seconds (JVM running for 7.278)
+2020-02-07 00:33:54,365 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 00:33:54,475 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getAllEmployeeRoles
+2020-02-07 00:33:54,504 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getAllEmployeeRoles
+2020-02-07 00:33:54,529 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2020-02-07 00:33:55,017 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2020-02-07 00:33:55,116 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 00:33:55,116 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 00:33:55,117 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 00:33:55,117 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 00:33:55,117 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 00:33:55,117 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 00:34:10,335 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] getAllEmployeeRoles
+2020-02-07 00:34:10,336 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllEmployeeRoles
+2020-02-07 00:34:10,339 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 00:34:10,340 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 00:34:10,340 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 00:34:10,340 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 00:34:10,341 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 00:34:10,341 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 00:39:24,296 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 8636 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\RecruitmentApplication)
+2020-02-07 00:39:24,300 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-07 00:39:26,153 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-07 00:39:26,154 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 00:39:26,404 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-07 00:39:26,475 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-07 00:39:26,477 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-07 00:39:26,569 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-07 00:39:27,401 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 3.753 seconds (JVM running for 4.577)
+2020-02-07 00:39:38,337 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 00:43:44,193 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-7] getAllEmployeeRoles
+2020-02-07 00:43:44,221 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] DAO :: getAllEmployeeRoles
+2020-02-07 00:43:44,234 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-7] HikariPool-1 - Starting...
+2020-02-07 00:43:44,692 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-7] HikariPool-1 - Start completed.
+2020-02-07 00:43:44,753 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 00:43:44,753 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 00:43:44,754 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 00:43:44,754 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 00:43:44,754 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 00:43:44,754 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 00:45:09,932 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-9] getAllEmployeeRoles
+2020-02-07 00:45:09,933 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] DAO :: getAllEmployeeRoles
+2020-02-07 00:45:09,938 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 00:45:09,939 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 00:45:09,939 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 00:45:09,939 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 00:45:09,940 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 00:45:09,940 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 00:45:14,305 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 00:45:14,318 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] addNewEmployeeRole
+2020-02-07 00:45:14,318 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] EmployeeRole [roleId=0, designation=TeamLead]
+2020-02-07 00:45:14,319 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: InsertEmployeeRole
+2020-02-07 00:45:14,386 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] Inserted EmployeeRole :: RoleId :: 5
+2020-02-07 00:45:16,669 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] getAllEmployeeRoles
+2020-02-07 00:45:16,670 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: getAllEmployeeRoles
+2020-02-07 00:45:16,675 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 00:45:16,676 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 00:45:16,677 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 00:45:16,677 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 00:45:16,677 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 00:45:16,678 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 00:45:16,679 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 00:45:16,679 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 00:49:06,398 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] getAllEmployeeRoles
+2020-02-07 00:49:06,399 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] DAO :: getAllEmployeeRoles
+2020-02-07 00:49:06,402 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 00:49:06,403 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 00:49:06,403 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 00:49:06,404 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 00:49:06,404 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 00:49:06,404 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 00:49:06,404 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 00:49:06,404 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 00:49:10,391 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-5] getAllEmployeeRoles
+2020-02-07 00:49:10,392 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] DAO :: getAllEmployeeRoles
+2020-02-07 00:49:10,395 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 00:49:10,396 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 00:49:10,396 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 00:49:10,396 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 00:49:10,396 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 00:49:10,396 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 00:49:10,397 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 00:49:10,397 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:19:19,790 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 9472 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\RecruitmentApplication)
+2020-02-07 11:19:19,797 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-07 11:19:22,298 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-07 11:19:22,300 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 11:19:22,674 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-07 11:19:22,883 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-07 11:19:22,885 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-07 11:19:23,192 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-07 11:19:24,746 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 5.722 seconds (JVM running for 6.474)
+2020-02-07 11:19:29,947 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 11:19:30,064 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getAllEmployeeRoles
+2020-02-07 11:19:30,081 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getAllEmployeeRoles
+2020-02-07 11:19:30,099 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2020-02-07 11:19:30,456 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2020-02-07 11:19:30,541 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 11:19:30,556 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:19:30,557 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 11:19:30,558 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:19:30,558 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 11:19:30,559 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:19:30,559 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 11:19:30,560 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:22:01,742 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] getAllEmployeeRoles
+2020-02-07 11:22:01,743 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllEmployeeRoles
+2020-02-07 11:22:01,747 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 11:22:01,748 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:22:01,748 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 11:22:01,748 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:22:01,749 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 11:22:01,749 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:22:01,749 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 11:22:01,749 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:22:15,871 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] getAllEmployeeRoles
+2020-02-07 11:22:15,872 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] DAO :: getAllEmployeeRoles
+2020-02-07 11:22:15,879 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:22:15,880 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:22:15,882 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:22:15,882 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:22:15,882 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:22:15,882 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:22:15,883 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:22:15,883 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:31:00,578 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-6] getAllEmployeeRoles
+2020-02-07 11:31:00,580 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] DAO :: getAllEmployeeRoles
+2020-02-07 11:31:00,583 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 11:31:00,583 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:31:00,583 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 11:31:00,583 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:31:00,583 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 11:31:00,583 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:31:00,583 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 11:31:00,583 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:31:33,958 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-7] getAllEmployeeRoles
+2020-02-07 11:31:33,959 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] DAO :: getAllEmployeeRoles
+2020-02-07 11:31:33,962 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:31:33,962 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:31:33,963 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:31:33,963 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:31:33,963 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:31:33,963 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:31:33,963 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:31:33,963 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:34:52,190 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-9] getAllEmployeeRoles
+2020-02-07 11:34:52,191 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] DAO :: getAllEmployeeRoles
+2020-02-07 11:34:52,192 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:34:52,192 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:34:52,193 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:34:52,193 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:34:52,193 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:34:52,193 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:34:52,193 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:34:52,193 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:34:56,793 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-10] getAllEmployeeRoles
+2020-02-07 11:34:56,793 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] DAO :: getAllEmployeeRoles
+2020-02-07 11:34:56,795 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:34:56,795 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:34:56,795 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:34:56,795 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:34:56,795 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:34:56,795 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:34:56,796 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:34:56,796 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:47:59,219 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] getAllEmployeeRoles
+2020-02-07 11:47:59,220 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: getAllEmployeeRoles
+2020-02-07 11:47:59,222 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 11:47:59,222 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:47:59,222 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 11:47:59,222 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:47:59,222 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 11:47:59,222 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:47:59,223 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 11:47:59,223 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:49:59,691 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] getAllEmployeeRoles
+2020-02-07 11:49:59,691 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] DAO :: getAllEmployeeRoles
+2020-02-07 11:49:59,693 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:49:59,693 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:49:59,694 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:49:59,694 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:49:59,694 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:49:59,694 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:49:59,694 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:49:59,694 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:50:08,750 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-5] getAllEmployeeRoles
+2020-02-07 11:50:08,751 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] DAO :: getAllEmployeeRoles
+2020-02-07 11:50:08,752 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 11:50:08,752 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:50:08,752 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 11:50:08,752 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:50:08,752 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 11:50:08,752 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:50:08,752 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 11:50:08,752 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:52:52,068 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-7] getAllEmployeeRoles
+2020-02-07 11:52:52,069 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] DAO :: getAllEmployeeRoles
+2020-02-07 11:52:52,070 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:52:52,070 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:52:52,070 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:52:52,070 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:52:52,070 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:52:52,070 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:52:52,070 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:52:52,070 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:53:36,137 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-8] getAllEmployeeRoles
+2020-02-07 11:53:36,137 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] DAO :: getAllEmployeeRoles
+2020-02-07 11:53:36,139 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 11:53:36,140 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:53:36,140 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 11:53:36,140 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:53:36,140 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 11:53:36,140 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:53:36,140 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 11:53:36,140 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:53:53,087 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-9] getAllEmployeeRoles
+2020-02-07 11:53:53,087 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] DAO :: getAllEmployeeRoles
+2020-02-07 11:53:53,089 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:53:53,089 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:53:53,089 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:53:53,089 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:53:53,090 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:53:53,090 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:53:53,090 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:53:53,090 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:54:03,129 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-10] getAllEmployeeRoles
+2020-02-07 11:54:03,129 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] DAO :: getAllEmployeeRoles
+2020-02-07 11:54:03,131 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:54:03,131 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:54:03,131 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:54:03,131 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:54:03,131 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:54:03,131 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:54:03,131 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:54:03,131 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:54:16,811 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getAllEmployeeRoles
+2020-02-07 11:54:16,812 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getAllEmployeeRoles
+2020-02-07 11:54:16,817 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 11:54:16,817 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:54:16,818 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 11:54:16,818 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:54:16,818 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 11:54:16,818 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:54:16,819 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 11:54:16,819 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:54:32,354 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] getAllEmployeeRoles
+2020-02-07 11:54:32,355 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: getAllEmployeeRoles
+2020-02-07 11:54:32,359 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 11:54:32,359 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:54:32,360 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 11:54:32,360 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:54:32,360 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 11:54:32,360 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:54:32,360 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 11:54:32,361 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:55:09,696 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] getAllEmployeeRoles
+2020-02-07 11:55:09,697 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllEmployeeRoles
+2020-02-07 11:55:09,701 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 11:55:09,701 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:55:09,702 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 11:55:09,702 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:55:09,702 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 11:55:09,702 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:55:09,702 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 11:55:09,702 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:55:24,823 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] getAllEmployeeRoles
+2020-02-07 11:55:24,823 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] DAO :: getAllEmployeeRoles
+2020-02-07 11:55:24,828 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:55:24,829 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:55:24,830 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:55:24,830 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:55:24,830 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:55:24,830 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:55:24,830 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 11:55:24,830 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:57:12,055 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-6] getAllEmployeeRoles
+2020-02-07 11:57:12,057 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] DAO :: getAllEmployeeRoles
+2020-02-07 11:57:12,064 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 11:57:12,065 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:57:12,066 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 11:57:12,066 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:57:12,066 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 11:57:12,067 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:57:12,067 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 11:57:12,067 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:57:18,315 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-7] getAllEmployeeRoles
+2020-02-07 11:57:18,315 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] DAO :: getAllEmployeeRoles
+2020-02-07 11:57:18,317 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:57:18,318 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:57:18,318 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:57:18,318 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:57:18,319 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:57:18,319 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:57:18,319 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 11:57:18,319 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:58:39,612 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-9] getAllEmployeeRoles
+2020-02-07 11:58:39,613 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] DAO :: getAllEmployeeRoles
+2020-02-07 11:58:39,615 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:58:39,616 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:58:39,616 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:58:39,616 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:58:39,616 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:58:39,616 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:58:39,616 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 11:58:39,617 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:58:42,999 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-10] getAllEmployeeRoles
+2020-02-07 11:58:43,000 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] DAO :: getAllEmployeeRoles
+2020-02-07 11:58:43,003 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:58:43,003 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:58:43,004 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:58:43,004 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:58:43,005 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:58:43,005 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:58:43,005 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 11:58:43,006 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=5, designation=TeamLead]
+2020-02-07 11:58:44,586 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] deleteEmployeeRole
+2020-02-07 11:58:44,587 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] RoleId :: 5
+2020-02-07 11:58:44,587 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: deleteEmployeeRole
+2020-02-07 11:58:44,587 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] roleId :: 5
+2020-02-07 11:58:44,632 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] getAllEmployeeRoles
+2020-02-07 11:58:44,632 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllEmployeeRoles
+2020-02-07 11:58:44,633 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 11:58:44,634 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 11:58:44,634 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 11:58:44,634 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 11:58:44,634 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 11:58:44,634 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 11:58:54,785 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 11:58:54,788 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-5] addNewEmployeeRole
+2020-02-07 11:58:54,788 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-5] EmployeeRole [roleId=0, designation=TeamLead]
+2020-02-07 11:58:54,788 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] DAO :: InsertEmployeeRole
+2020-02-07 11:58:54,806 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] Inserted EmployeeRole :: RoleId :: 6
+2020-02-07 12:00:06,243 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-7] getAllEmployeeRoles
+2020-02-07 12:00:06,243 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] DAO :: getAllEmployeeRoles
+2020-02-07 12:00:06,244 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:00:06,244 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:00:06,244 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:00:06,244 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:00:06,244 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:00:06,244 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:00:06,244 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:00:06,244 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=6, designation=TeamLead]
+2020-02-07 12:00:08,502 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-9] deleteEmployeeRole
+2020-02-07 12:00:08,502 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-9] RoleId :: 6
+2020-02-07 12:00:08,502 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] DAO :: deleteEmployeeRole
+2020-02-07 12:00:08,502 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] roleId :: 6
+2020-02-07 12:00:08,522 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-10] getAllEmployeeRoles
+2020-02-07 12:00:08,523 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] DAO :: getAllEmployeeRoles
+2020-02-07 12:00:08,525 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 12:00:08,525 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:00:08,525 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 12:00:08,525 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:00:08,525 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 12:00:08,525 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:00:15,095 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 12:00:15,095 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] addNewEmployeeRole
+2020-02-07 12:00:15,095 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] EmployeeRole [roleId=0, designation=TeamLead]
+2020-02-07 12:00:15,095 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: InsertEmployeeRole
+2020-02-07 12:00:15,100 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] Inserted EmployeeRole :: RoleId :: 7
+2020-02-07 12:00:32,241 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] getAllEmployeeRoles
+2020-02-07 12:00:32,242 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllEmployeeRoles
+2020-02-07 12:00:32,243 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:00:32,243 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:00:32,243 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:00:32,243 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:00:32,243 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:00:32,243 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:00:32,243 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:00:32,243 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:08:17,869 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-5] getAllEmployeeRoles
+2020-02-07 12:08:17,869 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] DAO :: getAllEmployeeRoles
+2020-02-07 12:08:17,871 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 12:08:17,871 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:08:17,871 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 12:08:17,871 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:08:17,871 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 12:08:17,871 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:08:17,871 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 12:08:17,871 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:09:38,680 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-7] getAllEmployeeRoles
+2020-02-07 12:09:38,681 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] DAO :: getAllEmployeeRoles
+2020-02-07 12:09:38,683 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:09:38,684 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:09:38,684 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:09:38,684 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:09:38,684 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:09:38,685 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:09:38,685 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:09:38,685 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:11:00,272 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-9] getAllEmployeeRoles
+2020-02-07 12:11:00,273 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] DAO :: getAllEmployeeRoles
+2020-02-07 12:11:00,274 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 12:11:00,275 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:11:00,275 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 12:11:00,275 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:11:00,275 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 12:11:00,275 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:11:00,275 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 12:11:00,275 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:13:10,589 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getAllEmployeeRoles
+2020-02-07 12:13:10,590 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getAllEmployeeRoles
+2020-02-07 12:13:10,594 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 12:13:10,594 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:13:10,594 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 12:13:10,594 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:13:10,594 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 12:13:10,594 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:13:10,594 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 12:13:10,594 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:13:27,460 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] getAllEmployeeRoles
+2020-02-07 12:13:27,461 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: getAllEmployeeRoles
+2020-02-07 12:13:27,463 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 12:13:27,464 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:13:27,464 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 12:13:27,464 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:13:27,464 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 12:13:27,464 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:13:27,464 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 12:13:27,464 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:13:40,983 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] getAllEmployeeRoles
+2020-02-07 12:13:40,984 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllEmployeeRoles
+2020-02-07 12:13:40,986 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:13:40,987 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:13:40,988 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:13:40,988 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:13:40,988 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:13:40,988 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:13:40,989 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:13:40,989 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:13:48,747 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] getAllEmployeeRoles
+2020-02-07 12:13:48,747 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] DAO :: getAllEmployeeRoles
+2020-02-07 12:13:48,752 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:13:48,752 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:13:48,752 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:13:48,752 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:13:48,753 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:13:48,753 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:13:48,753 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:13:48,753 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:15:03,549 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-6] getAllEmployeeRoles
+2020-02-07 12:15:03,550 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] DAO :: getAllEmployeeRoles
+2020-02-07 12:15:03,553 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:15:03,554 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:15:03,554 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:15:03,554 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:15:03,555 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:15:03,555 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:15:03,555 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:15:03,555 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:18:12,669 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-8] getAllEmployeeRoles
+2020-02-07 12:18:12,670 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] DAO :: getAllEmployeeRoles
+2020-02-07 12:18:12,674 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 12:18:12,674 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:18:12,674 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 12:18:12,674 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:18:12,675 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 12:18:12,675 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:18:12,675 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 12:18:12,675 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:21:43,700 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] getAllEmployeeRoles
+2020-02-07 12:21:43,700 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] DAO :: getAllEmployeeRoles
+2020-02-07 12:21:43,702 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:21:43,702 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:21:43,702 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:21:43,702 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:21:43,703 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:21:43,703 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:21:43,703 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:21:43,703 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:23:50,363 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 15804 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\RecruitmentApplication)
+2020-02-07 12:23:50,369 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-07 12:23:51,885 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-07 12:23:51,898 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 12:23:51,977 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-07 12:23:52,024 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-07 12:23:52,024 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-07 12:23:52,118 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-07 12:23:52,940 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 3.065 seconds (JVM running for 3.509)
+2020-02-07 12:23:56,456 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 12:25:56,778 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 13320 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\RecruitmentApplication)
+2020-02-07 12:25:56,778 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-07 12:25:58,231 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-07 12:25:58,247 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 12:25:58,311 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-07 12:25:58,374 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-07 12:25:58,374 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-07 12:25:58,436 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-07 12:25:59,186 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 2.869 seconds (JVM running for 3.241)
+2020-02-07 12:26:02,291 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 12:26:02,320 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getEmployeeRoleById
+2020-02-07 12:26:02,336 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getEmployeeRoleByRoleId
+2020-02-07 12:26:02,336 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2020-02-07 12:26:02,539 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2020-02-07 12:26:02,586 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 12:26:02,602 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] Values From DB
+2020-02-07 12:26:02,602 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:26:09,287 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] getEmployeeRoleById
+2020-02-07 12:26:09,288 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: getEmployeeRoleByRoleId
+2020-02-07 12:26:09,294 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 12:26:09,294 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] Values From DB
+2020-02-07 12:26:09,294 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:26:39,317 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] getAllEmployeeRoles
+2020-02-07 12:26:39,317 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllEmployeeRoles
+2020-02-07 12:26:39,321 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:26:39,322 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:26:39,322 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:26:39,322 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:26:39,322 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:26:39,322 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:26:39,322 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:26:39,322 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:31:12,136 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-6] getAllEmployeeRoles
+2020-02-07 12:31:12,137 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] DAO :: getAllEmployeeRoles
+2020-02-07 12:31:12,139 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:31:12,139 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:31:12,140 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:31:12,140 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:31:12,140 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:31:12,140 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:31:12,140 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:31:12,140 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:32:06,939 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-7] getAllEmployeeRoles
+2020-02-07 12:32:06,940 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] DAO :: getAllEmployeeRoles
+2020-02-07 12:32:06,941 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:32:06,942 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:32:06,942 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:32:06,942 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:32:06,942 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:32:06,942 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:32:06,942 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:32:06,942 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:32:15,551 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-8] getEmployeeRoleById
+2020-02-07 12:32:15,551 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] DAO :: getEmployeeRoleByRoleId
+2020-02-07 12:32:15,552 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 12:32:15,553 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] Values From DB
+2020-02-07 12:32:15,553 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:34:06,084 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-10] getEmployeeRoleById
+2020-02-07 12:34:06,085 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] DAO :: getEmployeeRoleByRoleId
+2020-02-07 12:34:06,088 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-10] Default Construcotr Called !!
+2020-02-07 12:34:06,090 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] Values From DB
+2020-02-07 12:34:06,090 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-10] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:35:04,464 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getEmployeeRoleById
+2020-02-07 12:35:04,465 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getEmployeeRoleByRoleId
+2020-02-07 12:35:04,467 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 12:35:04,469 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] Values From DB
+2020-02-07 12:35:04,470 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:35:19,539 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] getEmployeeRoleById
+2020-02-07 12:35:19,540 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: getEmployeeRoleByRoleId
+2020-02-07 12:35:19,542 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 12:35:19,543 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] Values From DB
+2020-02-07 12:35:19,543 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:35:27,420 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] getAllEmployeeRoles
+2020-02-07 12:35:27,420 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllEmployeeRoles
+2020-02-07 12:35:27,421 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:35:27,421 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:35:27,421 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:35:27,421 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:35:27,421 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:35:27,421 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:35:27,421 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:35:27,422 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:35:30,168 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] getEmployeeRoleById
+2020-02-07 12:35:30,168 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] DAO :: getEmployeeRoleByRoleId
+2020-02-07 12:35:30,169 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:35:30,170 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] Values From DB
+2020-02-07 12:35:30,170 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:35:35,013 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-7] getAllEmployeeRoles
+2020-02-07 12:35:35,014 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] DAO :: getAllEmployeeRoles
+2020-02-07 12:35:35,015 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:35:35,015 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:35:35,015 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:35:35,016 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:35:35,016 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:35:35,016 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:35:35,016 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-07 12:35:35,016 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=7, designation=TeamLead]
+2020-02-07 12:35:35,048 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:35:35,051 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-6] updateEmployeeRole
+2020-02-07 12:35:35,051 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-6] RoleId :: 7
+2020-02-07 12:35:35,051 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-6] EmployeeRole [roleId=7, designation=Team-Lead]
+2020-02-07 12:35:35,051 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] DAO :: updateEmployeeRole
+2020-02-07 12:35:35,052 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] roleId :: 7
+2020-02-07 12:35:35,052 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=7, designation=Team-Lead]
+2020-02-07 12:35:35,063 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] DAO :: getEmployeeRoleByRoleId
+2020-02-07 12:35:35,064 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:35:35,064 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] Values From DB
+2020-02-07 12:35:35,064 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=7, designation=Team-Lead]
+2020-02-07 12:35:41,327 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-8] getAllEmployeeRoles
+2020-02-07 12:35:41,328 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] DAO :: getAllEmployeeRoles
+2020-02-07 12:35:41,332 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 12:35:41,332 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:35:41,332 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 12:35:41,332 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:35:41,333 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 12:35:41,333 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:35:41,333 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-07 12:35:41,333 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=7, designation=Team-Lead]
+2020-02-07 12:36:16,850 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-9] getAllEmployeeRoles
+2020-02-07 12:36:16,850 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] DAO :: getAllEmployeeRoles
+2020-02-07 12:36:16,851 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 12:36:16,852 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:36:16,852 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 12:36:16,852 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:36:16,852 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 12:36:16,852 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:36:16,852 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 12:36:16,852 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=7, designation=Team-Lead]
+2020-02-07 12:37:02,352 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] deleteEmployeeRole
+2020-02-07 12:37:02,352 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] RoleId :: 7
+2020-02-07 12:37:02,352 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: deleteEmployeeRole
+2020-02-07 12:37:02,352 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] roleId :: 7
+2020-02-07 12:37:02,370 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] getAllEmployeeRoles
+2020-02-07 12:37:02,370 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllEmployeeRoles
+2020-02-07 12:37:02,371 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:37:02,371 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:37:02,372 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:37:02,372 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:37:02,372 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:37:02,372 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:37:04,326 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] getEmployeeRoleById
+2020-02-07 12:37:04,327 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] DAO :: getEmployeeRoleByRoleId
+2020-02-07 12:37:04,329 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:37:04,330 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] Values From DB
+2020-02-07 12:37:04,331 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:37:11,613 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-5] getAllEmployeeRoles
+2020-02-07 12:37:11,614 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] DAO :: getAllEmployeeRoles
+2020-02-07 12:37:11,615 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 12:37:11,615 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:37:11,615 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 12:37:11,615 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:37:11,615 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!
+2020-02-07 12:37:11,615 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:47:07,530 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-6] getAllEmployeeRoles
+2020-02-07 12:47:07,531 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] DAO :: getAllEmployeeRoles
+2020-02-07 12:47:07,533 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:47:07,533 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:47:07,534 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:47:07,534 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:47:07,534 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-6] Default Construcotr Called !!
+2020-02-07 12:47:07,534 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:50:35,328 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-9] getAllEmployeeRoles
+2020-02-07 12:50:35,328 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] DAO :: getAllEmployeeRoles
+2020-02-07 12:50:35,331 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 12:50:35,331 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:50:35,331 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 12:50:35,331 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:50:35,331 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-9] Default Construcotr Called !!
+2020-02-07 12:50:35,331 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-9] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:50:40,056 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-07 12:50:40,057 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] addNewEmployeeRole
+2020-02-07 12:50:40,057 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] EmployeeRole [roleId=0, designation=TeamLead]
+2020-02-07 12:50:40,058 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: InsertEmployeeRole
+2020-02-07 12:50:40,067 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] Inserted EmployeeRole :: RoleId :: 8
+2020-02-07 12:50:46,139 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] getAllEmployeeRoles
+2020-02-07 12:50:46,140 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: getAllEmployeeRoles
+2020-02-07 12:50:46,141 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 12:50:46,141 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:50:46,141 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 12:50:46,141 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:50:46,141 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 12:50:46,141 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:50:46,141 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-07 12:50:46,141 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=8, designation=TeamLead]
+2020-02-07 12:51:09,933 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] getAllEmployeeRoles
+2020-02-07 12:51:09,933 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllEmployeeRoles
+2020-02-07 12:51:09,935 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:51:09,935 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:51:09,935 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:51:09,935 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:51:09,935 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:51:09,935 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:51:09,936 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-07 12:51:09,936 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] EmployeeRole [roleId=8, designation=TeamLead]
+2020-02-07 12:51:14,453 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] getAllEmployeeRoles
+2020-02-07 12:51:14,457 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] DAO :: getAllEmployeeRoles
+2020-02-07 12:51:14,459 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:51:14,460 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=1, designation=Tester]
+2020-02-07 12:51:14,460 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:51:14,460 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=2, designation=Developer]
+2020-02-07 12:51:14,460 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:51:14,460 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=3, designation=HR]
+2020-02-07 12:51:14,460 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-07 12:51:14,460 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=8, designation=TeamLead]
+2020-02-07 12:51:17,530 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-5] getAllEmployeeRoles
+2020-02-07 12:51:17,531 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-5] DAO :: getAllEmployeeRoles
+2020-02-07 12:51:17,534 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-5] Default Construcotr Called !!

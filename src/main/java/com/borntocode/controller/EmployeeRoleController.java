@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.borntocode.pojo.EmployeeRole;
 import com.borntocode.service.EmployeeRoleService;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/roles")
 public class EmployeeRoleController {
@@ -51,4 +51,12 @@ public class EmployeeRoleController {
 		LOGGER.info("getAllEmployeeRoles");
 		return employeeRoleService.getAllEmployeeRoles();
 	}
+	
+	@RequestMapping(value = "/{roleId}", method = RequestMethod.GET)
+	public EmployeeRole getEmployeeRoleById(@PathVariable("roleId") int roleId)
+	{
+		LOGGER.info("getEmployeeRoleById");
+		return employeeRoleService.getEmployeeRoleByRoleId(roleId);
+	}
+	
 }
