@@ -1,0 +1,210 @@
+2020-02-05 16:53:23,906 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 13204 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\EmployeeRecruitment)
+2020-02-05 16:53:23,910 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-05 16:53:25,720 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 16:53:25,721 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-05 16:53:25,942 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 16:53:26,077 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-05 16:53:26,210 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-05 16:53:26,212 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-05 16:53:27,022 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 4.114 seconds (JVM running for 4.627)
+2020-02-05 16:53:31,283 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 16:53:31,342 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getAllEmployeeRoles
+2020-02-05 16:53:31,353 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.borntocode.controller.EmployeeRoleController.getAllEmployeeRoles(EmployeeRoleController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-02-05 16:55:04,686 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 11244 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\EmployeeRecruitment)
+2020-02-05 16:55:04,687 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-05 16:55:06,741 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 16:55:06,742 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-05 16:55:06,889 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 16:55:06,981 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-05 16:55:06,983 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-05 16:55:07,071 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-05 16:55:07,839 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 4.069 seconds (JVM running for 4.736)
+2020-02-05 16:55:19,454 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 16:55:19,493 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getAllEmployeeRoles
+2020-02-05 16:55:19,508 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.borntocode.service.EmployeeRoleService.getAllEmployeeRoles(EmployeeRoleService.java:45)
+	at com.borntocode.controller.EmployeeRoleController.getAllEmployeeRoles(EmployeeRoleController.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-02-05 16:56:09,490 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 3100 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\EmployeeRecruitment)
+2020-02-05 16:56:09,494 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-05 16:56:11,521 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 16:56:11,525 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-05 16:56:11,673 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 16:56:11,756 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-05 16:56:11,758 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-05 16:56:11,856 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-05 16:56:12,645 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 4.031 seconds (JVM running for 4.606)
+2020-02-05 16:56:28,503 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 16:56:28,555 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getAllEmployeeRoles
+2020-02-05 16:56:28,575 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getAllEmployeeRoles
+2020-02-05 16:56:28,615 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2020-02-05 16:56:28,997 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2020-02-05 16:56:29,042 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-05 16:56:29,043 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=1, designation=Tester]
+2020-02-05 16:56:29,044 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-05 16:56:29,044 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=2, designation=Developer]
+2020-02-05 16:58:16,145 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-05 16:58:16,160 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] addNewEmployeeRole
+2020-02-05 16:58:16,160 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] EmployeeRole [roleId=0, designation=null]
+2020-02-05 16:58:16,160 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] InsertEmployeeRole
+2020-02-05 16:58:56,705 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-05 16:58:56,706 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] addNewEmployeeRole
+2020-02-05 16:58:56,706 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] EmployeeRole [roleId=0, designation=null]
+2020-02-05 16:58:56,707 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] InsertEmployeeRole
+2020-02-05 16:59:30,946 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 8580 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\EmployeeRecruitment)
+2020-02-05 16:59:30,946 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-05 16:59:34,028 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 16:59:34,029 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-05 16:59:34,221 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 16:59:34,316 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-05 16:59:34,316 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-05 16:59:34,512 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-05 16:59:35,864 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 5.836 seconds (JVM running for 6.699)
+2020-02-05 16:59:39,141 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 16:59:39,489 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-05 16:59:39,499 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] addNewEmployeeRole
+2020-02-05 16:59:39,500 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] EmployeeRole [roleId=0, designation=HR]
+2020-02-05 16:59:39,514 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] InsertEmployeeRole
+2020-02-05 17:10:23,231 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-3] Default Construcotr Called !!
+2020-02-05 17:10:23,235 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] addNewEmployeeRole
+2020-02-05 17:10:23,236 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-3] EmployeeRole [roleId=0, designation=HR]
+2020-02-05 17:10:23,236 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] InsertEmployeeRole
+2020-02-05 17:11:50,249 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 7596 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\EmployeeRecruitment)
+2020-02-05 17:11:50,254 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-05 17:11:52,619 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 17:11:52,622 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-05 17:11:52,748 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 17:11:52,821 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-05 17:11:52,821 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-05 17:11:52,922 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-05 17:11:53,680 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 4.204 seconds (JVM running for 4.772)
+2020-02-05 17:11:55,871 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 17:11:56,063 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-05 17:11:56,081 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] addNewEmployeeRole
+2020-02-05 17:11:56,081 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] EmployeeRole [roleId=0, designation=HR]
+2020-02-05 17:11:56,097 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] InsertEmployeeRole
+2020-02-05 17:11:56,112 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2020-02-05 17:11:56,506 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2020-02-05 17:11:56,595 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] Inserted EmployeeRole :: RoleId :: 3
+2020-02-05 18:10:36,361 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 4436 (C:\Users\BornToCode\git\RecruitmentApplication\target\classes started by BornToCode in C:\Users\BornToCode\git\RecruitmentApplication)
+2020-02-05 18:10:36,365 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-05 18:10:38,175 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-05 18:10:38,175 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-05 18:10:38,318 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-05 18:10:38,429 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-05 18:10:38,430 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-05 18:10:38,543 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-05 18:10:39,579 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 3.906 seconds (JVM running for 4.536)
+2020-02-05 18:11:13,183 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-05 18:11:13,254 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getAllEmployeeRoles
+2020-02-05 18:11:13,279 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getAllEmployeeRoles
+2020-02-05 18:11:13,301 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2020-02-05 18:11:13,832 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2020-02-05 18:11:13,924 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-05 18:11:13,925 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=1, designation=Tester]
+2020-02-05 18:11:13,926 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-05 18:11:13,926 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=2, designation=Developer]
+2020-02-05 18:11:13,926 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-05 18:11:13,926 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=3, designation=HR]
