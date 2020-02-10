@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.borntocode.pojo.EmployeeRole;
 import com.borntocode.service.EmployeeRoleService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/roles")
 public class EmployeeRoleController {
