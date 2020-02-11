@@ -389,3 +389,480 @@
 2020-02-11 00:35:30,532 INFO com.borntocode.controller.ProjectDetailsController [http-nio-8080-exec-1] getAllProjectDetailss
 2020-02-11 00:35:30,534 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getAllProjectDetails
 2020-02-11 00:35:30,537 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] ProjectDetails [projectId=7, name=Google Pay UPI, totalBudget=100000.0]
+2020-02-11 12:29:21,480 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 5576 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\RecruitmentApplication)
+2020-02-11 12:29:21,484 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-11 12:29:23,226 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-11 12:29:23,226 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-11 12:29:23,309 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-11 12:29:23,388 INFO com.borntocode.dao.interfaces.AddressDAOInterface [main] Object Created !!
+2020-02-11 12:29:23,483 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-11 12:29:23,485 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-11 12:29:23,513 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-11 12:29:24,296 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 3.625 seconds (JVM running for 4.386)
+2020-02-11 12:30:10,526 INFO com.borntocode.main.ApplicationMain [main] Starting ApplicationMain on DESKTOP-B38U4H2 with PID 7240 (started by BornToCode in C:\Code\Project\Spring Boot\Employee Recruitment\RecruitmentApplication)
+2020-02-11 12:30:10,532 INFO com.borntocode.main.ApplicationMain [main] No active profile set, falling back to default profiles: default
+2020-02-11 12:30:12,415 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-11 12:30:12,416 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-11 12:30:12,497 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-11 12:30:12,562 INFO com.borntocode.dao.interfaces.AddressDAOInterface [main] Object Created !!
+2020-02-11 12:30:12,666 INFO com.borntocode.service.EmployeeRoleService [main] Object Creaated !!
+2020-02-11 12:30:12,668 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [main] Object Created !!
+2020-02-11 12:30:12,695 INFO com.borntocode.pojo.EmployeeRole [main] Default Construcotr Called !!
+2020-02-11 12:30:13,605 INFO com.borntocode.main.ApplicationMain [main] Started ApplicationMain in 3.628 seconds (JVM running for 4.11)
+2020-02-11 12:30:17,152 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-11 12:30:17,191 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] getAllAddresss
+2020-02-11 12:30:17,201 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] DAO :: getAllAddresss
+2020-02-11 12:30:17,209 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2020-02-11 12:30:17,516 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2020-02-11 12:30:17,565 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Address [addressId=1, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 12:31:51,509 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] addNewAddress
+2020-02-11 12:31:51,509 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] Address [addressId=1, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 12:31:51,510 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: InsertAddress
+2020-02-11 12:31:51,531 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Inserted Address :: AddressId :: 2
+2020-02-11 12:32:27,311 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-6] updateAddress
+2020-02-11 12:32:27,311 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-6] addressId :: 1
+2020-02-11 12:32:27,311 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-6] Address [addressId=1, addressLineOne=Test-Line 1, addressLineTwo=Test-Line 2, city=Pune, state=Maharashtra, country=India]
+2020-02-11 12:32:27,312 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] DAO :: updateAddress
+2020-02-11 12:32:27,312 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] addressId :: 1
+2020-02-11 12:32:27,312 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Address [addressId=1, addressLineOne=Test-Line 1, addressLineTwo=Test-Line 2, city=Pune, state=Maharashtra, country=India]
+2020-02-11 12:32:27,325 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] DAO :: getAddressByRoleId
+2020-02-11 12:32:27,334 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Values From DB
+2020-02-11 12:32:27,334 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Address [addressId=1, addressLineOne=Test-Line 1, addressLineTwo=Test-Line 2, city=Pune, state=Maharashtra, country=India]
+2020-02-11 12:32:49,113 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-7] deleteAddress
+2020-02-11 12:32:49,114 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-7] addressId :: 1
+2020-02-11 12:32:49,114 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] DAO :: deleteAddress
+2020-02-11 12:32:49,114 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] addressId :: 1
+2020-02-11 12:32:57,451 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-8] getAllAddresss
+2020-02-11 12:32:57,452 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] DAO :: getAllAddresss
+2020-02-11 12:32:57,454 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 13:37:35,202 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m49s785ms894µs600ns).
+2020-02-11 13:51:00,689 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-10] getAllAddresss
+2020-02-11 13:51:00,690 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] DAO :: getAllAddresss
+2020-02-11 13:51:00,694 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 13:51:10,919 INFO com.borntocode.controller.ProjectDetailsController [http-nio-8080-exec-2] getAllProjectDetailss
+2020-02-11 13:51:10,924 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: getAllProjectDetails
+2020-02-11 13:51:10,928 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] ProjectDetails [projectId=7, name=Google Pay UPI, totalBudget=100000.0]
+2020-02-11 13:51:12,371 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-1] getAllEmployeeRoles
+2020-02-11 13:51:12,374 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getAllEmployeeRoles
+2020-02-11 13:51:12,376 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-1] Default Construcotr Called !!
+2020-02-11 13:51:12,377 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] EmployeeRole [roleId=2, designation=HR]
+2020-02-11 13:51:13,554 INFO com.borntocode.controller.ProjectDetailsController [http-nio-8080-exec-3] getAllProjectDetailss
+2020-02-11 13:51:13,554 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllProjectDetails
+2020-02-11 13:51:13,555 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] ProjectDetails [projectId=7, name=Google Pay UPI, totalBudget=100000.0]
+2020-02-11 13:51:14,257 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] getAllAddresss
+2020-02-11 13:51:14,258 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: getAllAddresss
+2020-02-11 13:51:14,259 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 13:52:45,927 INFO com.borntocode.controller.ProjectDetailsController [http-nio-8080-exec-6] getAllProjectDetailss
+2020-02-11 13:52:45,927 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] DAO :: getAllProjectDetails
+2020-02-11 13:52:45,929 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-6] ProjectDetails [projectId=7, name=Google Pay UPI, totalBudget=100000.0]
+2020-02-11 13:52:50,187 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-7] getAllEmployeeRoles
+2020-02-11 13:52:50,187 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] DAO :: getAllEmployeeRoles
+2020-02-11 13:52:50,189 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-7] Default Construcotr Called !!
+2020-02-11 13:52:50,189 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] EmployeeRole [roleId=2, designation=HR]
+2020-02-11 13:52:51,363 INFO com.borntocode.controller.ProjectDetailsController [http-nio-8080-exec-8] getAllProjectDetailss
+2020-02-11 13:52:51,364 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] DAO :: getAllProjectDetails
+2020-02-11 13:52:51,366 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] ProjectDetails [projectId=7, name=Google Pay UPI, totalBudget=100000.0]
+2020-02-11 13:52:52,393 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-9] getAllAddresss
+2020-02-11 13:52:52,393 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] DAO :: getAllAddresss
+2020-02-11 13:52:52,394 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 13:53:10,354 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-10] getAllAddresss
+2020-02-11 13:53:10,355 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] DAO :: getAllAddresss
+2020-02-11 13:53:10,358 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 13:53:50,718 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-2] getAllAddresss
+2020-02-11 13:53:50,718 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] DAO :: getAllAddresss
+2020-02-11 13:53:50,721 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:32:14,881 INFO com.borntocode.controller.ProjectDetailsController [http-nio-8080-exec-3] getAllProjectDetailss
+2020-02-11 14:32:14,883 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] DAO :: getAllProjectDetails
+2020-02-11 14:32:14,887 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-3] ProjectDetails [projectId=7, name=Google Pay UPI, totalBudget=100000.0]
+2020-02-11 14:32:19,194 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-4] getAllEmployeeRoles
+2020-02-11 14:32:19,194 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] DAO :: getAllEmployeeRoles
+2020-02-11 14:32:19,196 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-4] Default Construcotr Called !!
+2020-02-11 14:32:19,196 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-4] EmployeeRole [roleId=2, designation=HR]
+2020-02-11 14:32:22,476 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] getAllAddresss
+2020-02-11 14:32:22,476 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: getAllAddresss
+2020-02-11 14:32:22,482 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:37:27,295 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-8] addNewAddress
+2020-02-11 14:37:27,296 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-8] Address [addressId=0, addressLineOne=Jerbai Wadia Road, addressLineTwo=Bh, city=null, state=null, country=null]
+2020-02-11 14:37:27,296 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] DAO :: InsertAddress
+2020-02-11 14:37:27,480 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; Column 'city' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'city' cannot be null] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Column 'city' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$1(JdbcTemplate.java:894)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:893)
+	at com.borntocode.dao.AddressDAO.insertAddress(AddressDAO.java:48)
+	at com.borntocode.dao.AddressDAO$$FastClassBySpringCGLIB$$deeb40ea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.borntocode.dao.AddressDAO$$EnhancerBySpringCGLIB$$d1e5522c.insertAddress(<generated>)
+	at com.borntocode.service.AddressService.insertAddress(AddressService.java:20)
+	at com.borntocode.controller.AddressController.addNewAddress(AddressController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-02-11 14:37:30,692 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-9] getAllAddresss
+2020-02-11 14:37:30,693 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] DAO :: getAllAddresss
+2020-02-11 14:37:30,696 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:42:31,524 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] addNewAddress
+2020-02-11 14:42:31,525 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] Address [addressId=0, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:42:31,525 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] DAO :: InsertAddress
+2020-02-11 14:42:31,537 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Inserted Address :: AddressId :: 3
+2020-02-11 14:42:40,419 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-3] getAllAddresss
+2020-02-11 14:42:40,420 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] DAO :: getAllAddresss
+2020-02-11 14:42:40,423 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:42:40,423 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:45:33,207 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] getAllAddresss
+2020-02-11 14:45:33,209 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: getAllAddresss
+2020-02-11 14:45:33,212 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:45:33,213 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:46:15,290 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-6] getAllAddresss
+2020-02-11 14:46:15,290 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] DAO :: getAllAddresss
+2020-02-11 14:46:15,292 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:46:15,292 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:49:02,966 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-8] getAllAddresss
+2020-02-11 14:49:02,967 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] DAO :: getAllAddresss
+2020-02-11 14:49:02,968 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:49:02,969 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:49:05,606 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-9] getAllAddresss
+2020-02-11 14:49:05,607 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] DAO :: getAllAddresss
+2020-02-11 14:49:05,611 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Address [addressId=2, addressLineOne=Test Line 1, addressLineTwo=Test Line 2, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:49:05,612 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:49:09,337 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-2] deleteAddress
+2020-02-11 14:49:09,338 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-2] addressId :: 2
+2020-02-11 14:49:09,338 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] DAO :: deleteAddress
+2020-02-11 14:49:09,339 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] addressId :: 2
+2020-02-11 14:49:09,369 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] getAllAddresss
+2020-02-11 14:49:09,369 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] DAO :: getAllAddresss
+2020-02-11 14:49:09,371 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:49:26,762 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-3] getAllAddresss
+2020-02-11 14:49:26,763 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] DAO :: getAllAddresss
+2020-02-11 14:49:26,765 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:49:58,493 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] getAllAddresss
+2020-02-11 14:49:58,494 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: getAllAddresss
+2020-02-11 14:49:58,496 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:50:17,436 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] getAllAddresss
+2020-02-11 14:50:17,436 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: getAllAddresss
+2020-02-11 14:50:17,438 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:50:19,053 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-6] getAllAddresss
+2020-02-11 14:50:19,054 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] DAO :: getAllAddresss
+2020-02-11 14:50:19,055 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:52:01,659 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-8] getAllAddresss
+2020-02-11 14:52:01,660 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] DAO :: getAllAddresss
+2020-02-11 14:52:01,662 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:52:45,517 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-9] getAllAddresss
+2020-02-11 14:52:45,517 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] DAO :: getAllAddresss
+2020-02-11 14:52:45,520 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:52:56,100 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-10] getAllAddresss
+2020-02-11 14:52:56,100 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] DAO :: getAllAddresss
+2020-02-11 14:52:56,102 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:53:10,878 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-2] getAllAddresss
+2020-02-11 14:53:10,878 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] DAO :: getAllAddresss
+2020-02-11 14:53:10,880 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:53:16,264 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] getAllAddresss
+2020-02-11 14:53:16,265 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] DAO :: getAllAddresss
+2020-02-11 14:53:16,268 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:55:35,987 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] getAllAddresss
+2020-02-11 14:55:35,988 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: getAllAddresss
+2020-02-11 14:55:35,989 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 14:59:51,201 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-6] getAllAddresss
+2020-02-11 14:59:51,201 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] DAO :: getAllAddresss
+2020-02-11 14:59:51,203 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:01:13,136 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-8] getAllAddresss
+2020-02-11 15:01:13,136 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] DAO :: getAllAddresss
+2020-02-11 15:01:13,139 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:02:13,742 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-10] getAllAddresss
+2020-02-11 15:02:13,744 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] DAO :: getAllAddresss
+2020-02-11 15:02:13,746 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:02:17,813 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-2] getAllAddresss
+2020-02-11 15:02:17,814 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] DAO :: getAllAddresss
+2020-02-11 15:02:17,815 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:02:19,594 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] getAddressById
+2020-02-11 15:02:19,595 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] DAO :: getAddressByRoleId
+2020-02-11 15:02:19,596 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Values From DB
+2020-02-11 15:02:19,596 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:03:19,239 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-3] getAddressById
+2020-02-11 15:03:19,239 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] DAO :: getAddressByRoleId
+2020-02-11 15:03:19,242 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Values From DB
+2020-02-11 15:03:19,242 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:03:43,183 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] getAddressById
+2020-02-11 15:03:43,183 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: getAddressByRoleId
+2020-02-11 15:03:43,187 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Values From DB
+2020-02-11 15:03:43,188 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:03:51,682 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] getAddressById
+2020-02-11 15:03:51,683 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: getAddressByRoleId
+2020-02-11 15:03:51,685 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Values From DB
+2020-02-11 15:03:51,685 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:03:55,676 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-6] getAddressById
+2020-02-11 15:03:55,677 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] DAO :: getAddressByRoleId
+2020-02-11 15:03:55,679 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Values From DB
+2020-02-11 15:03:55,679 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:03:58,047 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-7] getAddressById
+2020-02-11 15:03:58,048 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] DAO :: getAddressByRoleId
+2020-02-11 15:03:58,050 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] Values From DB
+2020-02-11 15:03:58,051 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:04:18,168 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-8] getAddressById
+2020-02-11 15:04:18,168 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] DAO :: getAddressByRoleId
+2020-02-11 15:04:18,169 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] EXCEPTION
+2020-02-11 15:04:18,169 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Incorrect result size: expected 1, actual 0
+2020-02-11 15:04:26,777 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-9] getAddressById
+2020-02-11 15:04:26,778 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] DAO :: getAddressByRoleId
+2020-02-11 15:04:26,782 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Values From DB
+2020-02-11 15:04:26,782 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:05:02,605 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-10] getAddressById
+2020-02-11 15:05:02,606 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] DAO :: getAddressByRoleId
+2020-02-11 15:05:02,607 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Values From DB
+2020-02-11 15:05:02,607 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:05:08,475 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-2] getAddressById
+2020-02-11 15:05:08,476 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] DAO :: getAddressByRoleId
+2020-02-11 15:05:08,479 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] Values From DB
+2020-02-11 15:05:08,480 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:05:35,505 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] getAddressById
+2020-02-11 15:05:35,506 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] DAO :: getAddressByRoleId
+2020-02-11 15:05:35,507 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Values From DB
+2020-02-11 15:05:35,507 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:06:24,949 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-3] getAddressById
+2020-02-11 15:06:24,950 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] DAO :: getAddressByRoleId
+2020-02-11 15:06:24,957 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Values From DB
+2020-02-11 15:06:24,957 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:06:33,213 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] getAddressById
+2020-02-11 15:06:33,213 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: getAddressByRoleId
+2020-02-11 15:06:33,222 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Values From DB
+2020-02-11 15:06:33,222 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:06:54,038 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] getAddressById
+2020-02-11 15:06:54,039 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: getAddressByRoleId
+2020-02-11 15:06:54,044 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Values From DB
+2020-02-11 15:06:54,044 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:07:55,472 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-7] getAddressById
+2020-02-11 15:07:55,473 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] DAO :: getAddressByRoleId
+2020-02-11 15:07:55,480 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] Values From DB
+2020-02-11 15:07:55,480 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:08:15,226 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-8] getAddressById
+2020-02-11 15:08:15,227 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] DAO :: getAddressByRoleId
+2020-02-11 15:08:15,229 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Values From DB
+2020-02-11 15:08:15,229 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:08:17,241 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-9] getAddressById
+2020-02-11 15:08:17,241 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] DAO :: getAddressByRoleId
+2020-02-11 15:08:17,243 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Values From DB
+2020-02-11 15:08:17,244 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:09:16,946 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-10] getAddressById
+2020-02-11 15:09:16,947 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] DAO :: getAddressByRoleId
+2020-02-11 15:09:16,948 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Values From DB
+2020-02-11 15:09:16,948 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:10:28,697 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] getAddressById
+2020-02-11 15:10:28,698 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] DAO :: getAddressByRoleId
+2020-02-11 15:10:28,700 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Values From DB
+2020-02-11 15:10:28,700 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:10:30,870 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-3] getAddressById
+2020-02-11 15:10:30,870 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] DAO :: getAddressByRoleId
+2020-02-11 15:10:30,872 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Values From DB
+2020-02-11 15:10:30,873 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:10:37,886 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] getAddressById
+2020-02-11 15:10:37,887 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: getAddressByRoleId
+2020-02-11 15:10:37,890 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Values From DB
+2020-02-11 15:10:37,891 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:11:08,216 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] getAddressById
+2020-02-11 15:11:08,217 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: getAddressByRoleId
+2020-02-11 15:11:08,219 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Values From DB
+2020-02-11 15:11:08,219 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:11:28,574 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-6] getAddressById
+2020-02-11 15:11:28,575 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] DAO :: getAddressByRoleId
+2020-02-11 15:11:28,577 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Values From DB
+2020-02-11 15:11:28,577 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:11:39,349 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-7] getAddressById
+2020-02-11 15:11:39,350 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] DAO :: getAddressByRoleId
+2020-02-11 15:11:39,352 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] Values From DB
+2020-02-11 15:11:39,352 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:11:41,270 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-8] getAddressById
+2020-02-11 15:11:41,270 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] DAO :: getAddressByRoleId
+2020-02-11 15:11:41,272 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Values From DB
+2020-02-11 15:11:41,272 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:11:59,923 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-10] updateAddress
+2020-02-11 15:11:59,923 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-10] addressId :: 3
+2020-02-11 15:11:59,923 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-10] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Bhoiwada, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:11:59,923 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] DAO :: updateAddress
+2020-02-11 15:11:59,923 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] addressId :: 3
+2020-02-11 15:11:59,924 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Bhoiwada, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:11:59,934 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] DAO :: getAddressByRoleId
+2020-02-11 15:11:59,936 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Values From DB
+2020-02-11 15:11:59,936 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Bhoiwada, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:11:59,979 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-2] getAllAddresss
+2020-02-11 15:11:59,980 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] DAO :: getAllAddresss
+2020-02-11 15:11:59,982 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-2] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Bhoiwada, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:12:06,037 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] getAddressById
+2020-02-11 15:12:06,038 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] DAO :: getAddressByRoleId
+2020-02-11 15:12:06,039 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Values From DB
+2020-02-11 15:12:06,039 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Bhoiwada, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:12:14,481 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] updateAddress
+2020-02-11 15:12:14,483 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] addressId :: 3
+2020-02-11 15:12:14,483 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:12:14,483 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: updateAddress
+2020-02-11 15:12:14,483 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] addressId :: 3
+2020-02-11 15:12:14,483 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:12:14,483 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] getAllAddresss
+2020-02-11 15:12:14,483 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: getAllAddresss
+2020-02-11 15:12:14,491 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Bhoiwada, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:12:14,493 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: getAddressByRoleId
+2020-02-11 15:12:14,494 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Values From DB
+2020-02-11 15:12:14,494 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:12:18,221 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-6] getAllAddresss
+2020-02-11 15:12:18,221 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] DAO :: getAllAddresss
+2020-02-11 15:12:18,223 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:12:26,812 INFO com.borntocode.controller.ProjectDetailsController [http-nio-8080-exec-7] getAllProjectDetailss
+2020-02-11 15:12:26,813 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] DAO :: getAllProjectDetails
+2020-02-11 15:12:26,814 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-7] ProjectDetails [projectId=7, name=Google Pay UPI, totalBudget=100000.0]
+2020-02-11 15:12:27,740 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-8] getAllEmployeeRoles
+2020-02-11 15:12:27,741 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] DAO :: getAllEmployeeRoles
+2020-02-11 15:12:27,742 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-8] Default Construcotr Called !!
+2020-02-11 15:12:27,742 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-8] EmployeeRole [roleId=2, designation=HR]
+2020-02-11 15:13:32,233 INFO com.borntocode.controller.ProjectDetailsController [http-nio-8080-exec-2] getAllProjectDetailss
+2020-02-11 15:13:32,233 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: getAllProjectDetails
+2020-02-11 15:13:32,234 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] ProjectDetails [projectId=7, name=Google Pay UPI, totalBudget=100000.0]
+2020-02-11 15:13:32,875 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] getAllAddresss
+2020-02-11 15:13:32,875 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] DAO :: getAllAddresss
+2020-02-11 15:13:32,876 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:44:03,215 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] getAllAddresss
+2020-02-11 15:44:03,215 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: getAllAddresss
+2020-02-11 15:44:03,225 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 15:44:19,236 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] getAllAddresss
+2020-02-11 15:44:19,236 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: getAllAddresss
+2020-02-11 15:44:19,237 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:10:51,793 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-7] getAllAddresss
+2020-02-11 16:10:51,793 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] DAO :: getAllAddresss
+2020-02-11 16:10:51,796 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:15:11,178 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-9] getAllAddresss
+2020-02-11 16:15:11,179 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] DAO :: getAllAddresss
+2020-02-11 16:15:11,181 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:16:11,163 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-10] getAllAddresss
+2020-02-11 16:16:11,163 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] DAO :: getAllAddresss
+2020-02-11 16:16:11,165 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:17:32,095 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] getAllAddresss
+2020-02-11 16:17:32,095 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] DAO :: getAllAddresss
+2020-02-11 16:17:32,097 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:18:09,121 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-3] getAllAddresss
+2020-02-11 16:18:09,122 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] DAO :: getAllAddresss
+2020-02-11 16:18:09,123 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:18:20,147 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] getAllAddresss
+2020-02-11 16:18:20,148 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: getAllAddresss
+2020-02-11 16:18:20,149 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:18:48,073 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] getAllAddresss
+2020-02-11 16:18:48,074 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: getAllAddresss
+2020-02-11 16:18:48,075 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:19:47,108 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-6] getAllAddresss
+2020-02-11 16:19:47,109 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] DAO :: getAllAddresss
+2020-02-11 16:19:47,110 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:19:54,903 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-7] getAllAddresss
+2020-02-11 16:19:54,903 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] DAO :: getAllAddresss
+2020-02-11 16:19:54,904 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:20:53,224 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-8] getAllAddresss
+2020-02-11 16:20:53,225 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] DAO :: getAllAddresss
+2020-02-11 16:20:53,226 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:21:25,155 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-9] getAllAddresss
+2020-02-11 16:21:25,155 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] DAO :: getAllAddresss
+2020-02-11 16:21:25,156 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:21:34,850 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-10] getAllAddresss
+2020-02-11 16:21:34,850 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] DAO :: getAllAddresss
+2020-02-11 16:21:34,851 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-10] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:22:38,133 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-1] getAllAddresss
+2020-02-11 16:22:38,133 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] DAO :: getAllAddresss
+2020-02-11 16:22:38,135 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-1] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:22:45,168 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-3] getAllAddresss
+2020-02-11 16:22:45,168 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] DAO :: getAllAddresss
+2020-02-11 16:22:45,169 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:23:05,181 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] getAllAddresss
+2020-02-11 16:23:05,181 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: getAllAddresss
+2020-02-11 16:23:05,183 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:23:28,280 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] getAllAddresss
+2020-02-11 16:23:28,281 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: getAllAddresss
+2020-02-11 16:23:28,282 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:24:42,331 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-7] getAllAddresss
+2020-02-11 16:24:42,332 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] DAO :: getAllAddresss
+2020-02-11 16:24:42,333 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-7] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:25:40,794 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-8] getAllAddresss
+2020-02-11 16:25:40,794 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] DAO :: getAllAddresss
+2020-02-11 16:25:40,796 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-8] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 16:25:42,797 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-9] getAllAddresss
+2020-02-11 16:25:42,798 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] DAO :: getAllAddresss
+2020-02-11 16:25:42,802 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-9] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 17:17:41,525 INFO com.borntocode.controller.EmployeeRoleController [http-nio-8080-exec-2] getAllEmployeeRoles
+2020-02-11 17:17:41,528 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] DAO :: getAllEmployeeRoles
+2020-02-11 17:17:41,597 INFO com.borntocode.pojo.EmployeeRole [http-nio-8080-exec-2] Default Construcotr Called !!
+2020-02-11 17:17:41,597 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-2] EmployeeRole [roleId=2, designation=HR]
+2020-02-11 17:17:48,993 INFO com.borntocode.controller.ProjectDetailsController [http-nio-8080-exec-1] getAllProjectDetailss
+2020-02-11 17:17:48,995 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] DAO :: getAllProjectDetails
+2020-02-11 17:17:49,026 INFO com.borntocode.dao.interfaces.EmployeeRoleDAOInterface [http-nio-8080-exec-1] ProjectDetails [projectId=7, name=Google Pay UPI, totalBudget=100000.0]
+2020-02-11 17:17:54,526 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-3] getAllAddresss
+2020-02-11 17:17:54,526 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] DAO :: getAllAddresss
+2020-02-11 17:17:54,529 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-3] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 17:17:58,186 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-5] getAddressById
+2020-02-11 17:17:58,187 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] DAO :: getAddressByRoleId
+2020-02-11 17:17:58,190 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Values From DB
+2020-02-11 17:17:58,190 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-5] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 17:18:49,395 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-4] getAllAddresss
+2020-02-11 17:18:49,396 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] DAO :: getAllAddresss
+2020-02-11 17:18:49,398 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-4] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]
+2020-02-11 17:18:53,007 INFO com.borntocode.controller.AddressController [http-nio-8080-exec-6] getAddressById
+2020-02-11 17:18:53,009 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] DAO :: getAddressByRoleId
+2020-02-11 17:18:53,011 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Values From DB
+2020-02-11 17:18:53,011 INFO com.borntocode.dao.interfaces.AddressDAOInterface [http-nio-8080-exec-6] Address [addressId=3, addressLineOne=Jerbai Wadia Road, addressLineTwo=Opposite Indian Cancer Society, city=Mumbai, state=Maharashtra, country=India]

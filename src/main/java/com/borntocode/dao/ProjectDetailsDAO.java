@@ -18,10 +18,8 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
 
-import com.borntocode.dao.EmployeeRoleDAO.EmployeeRoleRowMapper;
 import com.borntocode.dao.interfaces.EmployeeRoleDAOInterface;
 import com.borntocode.dao.interfaces.ProjectDetailsDAOInterface;
-import com.borntocode.pojo.EmployeeRole;
 import com.borntocode.pojo.ProjectDetails;
 
 @Repository
