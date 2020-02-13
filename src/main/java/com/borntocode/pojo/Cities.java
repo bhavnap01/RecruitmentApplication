@@ -1,5 +1,8 @@
 package com.borntocode.pojo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Cities {
 	private int cityId;
 	private String name;

@@ -2,13 +2,18 @@ package com.borntocode.service;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.borntocode.dao.interfaces.CountriesDAOInterface;
 import com.borntocode.pojo.Address;
 import com.borntocode.pojo.Countries;
 import com.borntocode.service.interfaces.CountriesServiceInterface;
 
+@Service
 public class CountriesService implements CountriesServiceInterface {
 
+	@Autowired
 	private CountriesDAOInterface countriesDAO;
 
 	@Override

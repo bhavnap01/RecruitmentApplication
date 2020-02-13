@@ -16,6 +16,7 @@ import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
+import org.springframework.stereotype.Repository;
 
 import com.borntocode.dao.CountriesDAO.CountryRowMapper;
 import com.borntocode.dao.interfaces.AddressDAOInterface;
@@ -23,6 +24,7 @@ import com.borntocode.dao.interfaces.StatesDAOInterface;
 import com.borntocode.pojo.Countries;
 import com.borntocode.pojo.States;
 
+@Repository
 public class StatesDAO implements StatesDAOInterface {
 
 	@Autowired

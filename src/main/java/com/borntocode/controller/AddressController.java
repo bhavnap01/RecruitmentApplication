@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.borntocode.pojo.Address;
-import com.borntocode.service.AddressService;
+import com.borntocode.service.interfaces.AddressServiceInterface;
 
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/addresses")
 public class AddressController {
 	@Autowired
-	private AddressService addressService;
+	private AddressServiceInterface addressService;
 	private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
 	@RequestMapping(value = "/address", method = RequestMethod.POST)

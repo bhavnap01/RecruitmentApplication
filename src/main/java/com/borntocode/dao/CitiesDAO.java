@@ -16,12 +16,14 @@ import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
+import org.springframework.stereotype.Repository;
 
 import com.borntocode.dao.interfaces.AddressDAOInterface;
 import com.borntocode.dao.interfaces.CitiesDAOInterface;
 import com.borntocode.pojo.Cities;
 import com.borntocode.pojo.States;
 
+@Repository
 public class CitiesDAO implements CitiesDAOInterface {
 
 	@Autowired

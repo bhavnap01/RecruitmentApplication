@@ -1,5 +1,8 @@
 package com.borntocode.pojo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class States {
 	private int stateId;
 	private String name;
