@@ -105,7 +105,7 @@ public class EmployeeDAO implements EmployeeDAOInterface {
 
 			employee.setEmployeeId(Integer.valueOf(map.get("employee_id").toString()));
 			employee.setFirstName(map.get("first_name").toString());
-			employee.setFirstName(map.get("last_name").toString());
+			employee.setLastName(map.get("last_name").toString());
 
 			Address address = addressDAO.getAddressByAddressId(Integer.valueOf(map.get("address_id").toString()));
 			LOGGER.info(address.toString());
